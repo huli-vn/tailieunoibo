@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài Liệu Nội Bội - Ôn Thi</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Inter từ Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <div class="">
+                <svg fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C9.79 6 8 7.79 8 10V11H16V10C16 7.79 14.21 6 12 6Z" />
+                </svg>
+            </div>
+            <span class="sidebar-brand">Tài Liệu Nội Bộ</span>
+        </div>
+
+        <nav class="sidebar-nav">
+            <h3 class="sidebar-nav-title">Top Features</h3>
+            <ul>
+                <li class="nav-item active" data-path="dashboard">
+                    <a class="nav-link" href="https://huli-vn.github.io/tailieunoibo/">
+                        <svg fill="currentColor" viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M4 4V20H20V4H4ZM6 6H18V18H6V6Z" />
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item has-submenu" data-path="HSA - HSA education">
+                    <a class="nav-link nav-link-toggle" href="https://huli-vn.github.io/tailieunoibo-hsa">
+                        <svg fill="currentColor" viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M4 6V18H20V6H4ZM12 9L18 12L12 15L6 12L12 9Z" />
+                        </svg>
+                        <span>HSA - HSA education</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-path="SPT - HSA education">
+                    <a class="nav-link" href="https://huli-vn.github.io/tailieunoibo-spt">
+                        <svg fill="currentColor" viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M20 2H4C2.89 2 2 2.89 2 4V22L6 18H20C21.11 18 22 17.11 22 16V4C22 2.89 21.11 2 20 2ZM20 16H6L4 18V4H20V16Z" />
+                        </svg>
+                        <span>SPT - HSA education</span>
+                    </a>
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="https://huli-vn.github.io/tailieunoibo-math">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M3 5v14h18V5H3zm16 12H5V7h14v10z" />
+                        </svg>
+                        <span>Toán Học</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-path="Vật Lý">
+                    <a class="nav-link" href="https://huli-vn.github.io/tailieunoibo-physics">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H18C19.11 22 20 21.11 20 20V4C20 2.89 19.11 2 18 2ZM18 20H6V4H18V20Z" /></svg>
+                        <span>Vật Lý</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-path="Tiếng Anh">
+                    <a class="nav-link" href="https://huli-vn.github.io/tailieunoibo-english">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18 2H6C4.89 2 4 2.89 4 4V20C4 21.11 4.89 22 6 22H18C19.11 22 20 21.11 20 20V4C20 2.89 19.11 2 18 2ZM18 20H6V4H18V20Z" /></svg>
+                        <span>Tiếng Anh</span>
+                    </a>
+                </li>
+                <li class="nav-item has-submenu" data-path="Liên hệ">
+                    <a class="nav-link nav-link-toggle" href="/Liên hệ">
+                        <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM12 6C9.79 6 8 7.79 8 10V11H16V10C16 7.79 14.21 6 12 6Z" /></svg>
+                        <span>Liên hệ</span>
+                        <svg class="arrow-icon" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <ul class="submenu" data-submenu-content="Liên hệ">
+                        <li><a href="/Liên hệ/certificates" class="submenu-link">Certificates</a></li>
+                        <li><a href="/Liên hệ/listen-type" class="submenu-link">Listen & Type</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="main-content-area">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <span class="header-brand"> </span>
+            </div>
+            <div class="search-bar-container">
+                <input type="text" placeholder="Tìm kiếm khóa học, bài viết,... " class="search-bar">
+                <svg class="search-icon" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" />
+                </svg>
+            </div>
+            <div class="header-actions">
+                <button class="icon-button">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 22C13.1 22 14 21.1 14 20H10C10 21.1 10.9 22 12 22ZM18 16V11C18 7.93 16.36 5.36 13.5 4.68V4C13.5 3.17 12.83 2.5 12 2.5C11.17 2.5 10.5 3.17 10.5 4V4.68C7.64 5.36 6 7.93 6 11V16L4 18V19H20V18L18 16Z" />
+                    </svg>
+                </button>
+                <div class="user-avatar-container">
+                    <img src="images/mr.jpg" alt="User Avatar" class="user-avatar">
+                    <div class="online-indicator"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <main class="main-content dashboard-grid">
+            <!-- Banner -->
+            <section class="banner-section dashboard-banner">
+                <div class="banner-content">
+                    <h1 class="banner-title"> Tài Liệu Nội Bộ, Xin Chào!</h1>
+                    <p class="banner-description">Ở đây, bạn có thể tìm kiếm các bài học miễn phí !.</p>
+                    <button class="banner-button">Bắt đầu ngay nào</button>
+                </div>
+                <div class="banner-image-container">
+                    <img src="images/hi.png" alt="Illustration of learning" class="banner-image">
+                </div>
+                <div class="release-speaking-float">
+                    Học đi em, do dự, đời tàn mất
+                    <span class="release-speaking-icon">
+                        <svg fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20 2H4C2.89 2 2 2.89 2 4V22L6 18H20C21.11 18 22 17.11 22 16V4C22 2.89 21.11 2 20 2ZM20 16H6L4 18V4H20V16Z" />
+                        </svg>
+                    </span>
+                </div>
+            </section>
+
+            <!-- Top Features -->
+            <section class="dashboard-features">
+                <div class="section-header">
+                    <h2 class="section-title">Top Features</h2>
+                    <a href="#" class="section-link"></a>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card blue">
+                        <div class="feature-icon">📝</div>
+                        <h3 class="feature-title">HSA</h3>
+                        <p class="feature-description">HSA Education</p>
+                    </div>
+                    <div class="feature-card green">
+                        <div class="feature-icon">🎧</div>
+                        <h3 class="feature-title">SPT</h3>
+                        <p class="feature-description">HSA Education</p>
+                    </div>
+                    <div class="feature-card yellow">
+                        <div class="feature-icon">📚</div>
+                        <h3 class="feature-title">Toán Học</h3>
+                        <p class="feature-description">Học Đi ... !</p>
+                    </div>
+                    <div class="feature-card red">
+                        <div class="feature-icon">✍️</div>
+                        <h3 class="feature-title">Tiếng Anh</h3>
+                        <p class="feature-description">Muốn giỏi không ... </p>
+                    </div>
+                    <div class="feature-card purple">
+                        <div class="feature-icon">🗣️</div>
+                        <h3 class="feature-title">Vật Lý</h3>
+                        <p class="feature-description">Khó hiểu thật sự ...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Deal & Top Users Section -->
+            <section class="grid-section">
+                <!-- Deal Card -->
+                <div class="deal-card">
+                    <div class="deal-card-content">
+                        <h2 class="deal-title">Trang học tập hoàn toàn miễn phí</h2>
+                        <p class="deal-price">Made with 💖 by Finn</p>
+                        <button class="deal-button">2025 ©</button>
+                    </div>
+                    <div class="deal-image-container">
+                        <img src="images/hmm.jpg" alt="Deal illustration" class="deal-image">
+                    </div>
+                </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
